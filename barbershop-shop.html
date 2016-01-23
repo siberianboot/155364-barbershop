@@ -19,7 +19,7 @@
               <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a href="#" class="shop_visit">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -42,36 +42,34 @@
             <li>
               <a href="#">Магазин</a>
             </li>
-            <li>
-              <a href="#">Средства для ухода</a>
-            </li>
+            <li class="shop_visit_item">Средства для ухода</li>
           </ul>
         </nav>
         <div class="shop_cont_left">
           <form action="#" method="get" class="shop_cont_man">
             <h2>Производители:</h2>
             <input type="checkbox" name="baxter" id="baxster_man" checked>
-            <label for="basxter_man">Baxter of california</label><br>
+            <label for="basxter_man">Baxter of california</label>
             <input type="checkbox" name="natty" id="mr_natty">
-            <label for="mr_natty">Mr natty</label><br>
+            <label for="mr_natty">Mr natty</label>
             <input type="checkbox" name="sua" id="suavesito" checked>
-            <label for="suavesito">Suavesito</label><br>
+            <label for="suavesito">Suavesito</label>
             <input type="checkbox" name="malingoetz" id="malin_goetz">
-            <label for="malin_goetz">Malin+Goetz</label><br>
+            <label for="malin_goetz">Malin+Goetz</label>
             <input type="checkbox" name="murray" id="murray_s">
-            <label for="murray_s">Murray's</label><br>
+            <label for="murray_s">Murray's</label>
             <input type="checkbox" name="american" id="american_crew" checked>
-            <label for="american_crew">American crew</label><br>
-          </form>
-          <div class="shop_cont_group">
+            <label for="american_crew">American crew</label>
             <h1>Группы товаров:</h1>
-            <a href="#">Показать</a>
-          </div>
+            <!--Не понимаю как формируются радиобаттоны!-->
+            <button type="submit">Показать</button>
+          </form>
         </div>
+      </div>
         <div class="shop_cont_right">
           <article class="shop_cont_prod">
             <img src="#" width="#" height="#">
-            <p>Набор для путешествий<br>"BAXTER OF CALIFORNIA"</p>
+            <p><a href="#">Набор для путешествий</a><br><a href="#">"BAXTER OF CALIFORNIA"</a></p>
             <div class="shop_cont_price_block">
               <span>2 900 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
@@ -120,7 +118,7 @@
         </div>
         <div class="shop_control_btns">
           <a href="#">1</a>
-          <a href="#">2</a>
+          <a href="#" class="shop_control_btns_active">2</a>
           <a href="#">3</a>
           <a href="#">4</a>
         </div>
