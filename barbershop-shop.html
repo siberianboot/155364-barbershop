@@ -3,12 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="css\style-shop.css">
   </head>
   <body>
     <header class="main_header">
       <div class="container">
         <nav class="main_navigation">
           <ul>
+            <li>
+              <img src="img\logo-samll111-24.png" width="111" height="24">
+            </li>
             <li>
               <a href="#">Информация</a>
             </li>
@@ -61,55 +65,60 @@
             <input type="checkbox" name="american" id="american_crew" checked>
             <label for="american_crew">American crew</label>
             <h2>Группы товаров:</h2>
-            <!--Не понимаю как формируются радиобаттоны!-->
+            <input type="radio" id="razor_ad">
+            <label for="razor_ad">Бритвенные принадлежности</label>
+            <input type="radio" id="prep_care" checked>
+            <label for="prep_care">средства для ухода</label>
+            <input type="radio" id="access">
+            <label for="access">аксессуары</label>
             <button type="submit">Показать</button>
           </form>
         </div>
       </div>
         <div class="shop_cont_right">
           <article class="shop_cont_prod">
-            <img src="#" width="#" height="#">
-            <p><a href="#">Набор для путешествий</a><br><a href="#">"BAXTER OF CALIFORNIA"</a></p>
+            <img src="img\set-bax220-165.png" width="220" height="165">
+            <a href="#"><p>Набор для путешествий "BAXTER OF CALIFORNIA"</p></a>
             <div class="shop_cont_price_block">
               <span>2 900 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
             </div>
           </article>
           <article class="shop_cont_prod">
-            <img src="#" width="#" height="#">
-            <p>Увлажняющий кондиционер<br>"BAXTER OF CALIFORNIA"</p>
+            <img src="img\cond220-165.png" width="220" height="165">
+            <a href="#"><p>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p></a>
             <div class="shop_cont_price_block">
               <span>750 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
             </div>
           </article>
           <article class="shop_cont_prod">
-            <img src="#" width="#" height="#">
-            <p>Гель для волос<br>"SUAVESITO"</p>
+            <img src="img\hear-gel220-165.png" width="220" height="165">
+            <a href="#"><p>Гель для волос "SUAVESITO"</p></a>
             <div class="shop_cont_price_block">
               <span>290 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
             </div>
           </article>
           <article class="shop_cont_prod">
-            <img src="#" width="#" height="#">
-            <p>Глина для укладки волос<br>"AMERICAN CREW"</p>
+            <img src="img\photo-crew220-165.png" width="220" height="165">
+            <a href="#"><p>Глина для укладки волос "AMERICAN CREW"</p></a>
             <div class="shop_cont_price_block">
               <span>500 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
             </div>
           </article>
           <article class="shop_cont_prod">
-            <img src="#" width="#" height="#">
-            <p>Гель для волос<br>"AMERICAN CREW"</p>
+            <img src="img\gel220-165.png" width="220" height="165">
+            <a href="#"><p>Гель для волос "AMERICAN CREW"</p></a>
             <div class="shop_cont_price_block">
               <span>300 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
             </div>
           </article>
           <article class="shop_cont_prod">
-            <img src="#" width="#" height="#">
-            <p>Набор для бритья<br>"BAXTER OF CALIFORNIA"</p>
+            <img src="img\set220-165.png" width="220" height="165">
+            <a href="#"><p>Набор для бритья "BAXTER OF CALIFORNIA"</p></a>
             <div class="shop_cont_price_block">
               <span>3 900 руб.</span>
               <a href="#" class="buy_btn">Купить</a>
@@ -134,14 +143,14 @@
         </section>
         <section class="footer_social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-vk" href="https://vk.com/"><img src="img\icon\vk25-16.png"></a>
+          <a class="social-btn social-btn-fb" href="www.facebook.com/‎"><img src="img\icon\fb12-22.png"></a>
+          <a class="social-btn social-btn-inst" href="https://www.instagram.com/
+  "><img src="img\icon\insta21-21.png"></a>
         </section>
         <section class="footer_copyright">
-          <p>Разработано:</p>
+          <span>Разработано:</span>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
       </div>
     </footer>
   </body>
