@@ -4,7 +4,147 @@ body {
   line-height: 24px;
   font-size: 14px;
 }
+h1 {
+  font-size: 30px;
+  color: black;
+}
 h2 {
   color: black;
-  font-size: 30px;
+  font-size: 24px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+  padding: 0px 10px;
+  border: 1px dashed red;
+}
+.main_header {
+  background-color:black;
+}
+.main_navigation li {
+  display: inline-block;
+  font-weight: bold;
+}
+.main_navigation a {
+  color: white;
+  text-decoration: none;
+}
+.main_navigation {
+  float: left;
+  border: 1px dashed yellow;
+}
+.user_block {
+  float: right;
+  border: 1px dashed yellow;
+}
+.user_block a {
+  color: white;
+  text-decoration: none;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.index_logo {
+  width: 368px;
+  height: 204px;
+  border: 1px dashed aqua;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features {
+  border: 1px dashed yellow;
+}
+.features_item {
+  border: 1px dashed aqua;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 300px;
+}
+.index_content {
+  border: 1px dashed yellow;
+}
+.index_content_left {
+  float: left;
+  border: 1px dashed aqua;
+  width: 340px;
+  margin-left: 70px;
+}
+.index_content_right {
+  float: right;
+  border: 1px dashed aqua;
+  width: 340px;
+  margin-right: 70px;
+}
+.footer_contacts {
+  float:left;
+  border: 1px dashed black;
+}
+.footer_social {
+  float:left;
+  border: 1px dashed black;
+}
+.footer_copyright {
+  float:left;
+  border: 1px dashed black;
+}
+.shop_navigation li {
+  display: inline-block;
+}
+.main_cont_left {
+  border: 1px dashed black;
+  float: left;
+  width: 490px;
+}
+.item_img {
+  border: 1px dashed green;
+  width: 460px;
+}
+.item_img_control {
+  border: 1px solid black;
+}
+.main_cont_right {
+  width: 410px;
+  float: right;
+  border: 1px solid black;
+}
+.shop_filter {
+  width: 170px;
+  float:left;
+  border: 1px solid black;
+}
+.shop_filter_group {
+  width: 160px;
+}
+.shop_cont_prod {
+  border: 1px dashed black;
+  display: inline-block;
+  width: 220px;
+}
+.shop_cont_right {
+  border: 1px dashed green;
+  width: 730px;
+  float: right;
+  text-transform: none;
+}
+.main_cont_ad {
+  font-size: 34px;
+  width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px dashed green;
+  text-align: center;
+}
+.container_left {
+  width: 380px;
+  float: left;
+  border: 1px solid black;
+}
+.container_right {
+  width: 450px;
+  float: right;
+  border: 1px solid black;
 }
